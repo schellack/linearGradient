@@ -18,6 +18,10 @@ export default class App extends React.Component {
           }}
           icon={{ name: "done", color: "white" }}
         />
+        <Text style={styles.paragraph}>
+          Check your console to see the deprecation warning message about
+          LinearGradient.
+        </Text>
       </View>
     );
   }
